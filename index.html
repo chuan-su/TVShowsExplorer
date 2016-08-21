@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/app.css">
+    </head>
+    <body ng-app="tvshow_explorer">
+        <div class="container" id="content" style="padding: 30px" ng-view></div>
+
+        <!-- external dependencies -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+
+        <!-- ng-controllers -->
+        <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="routes.js"></script>
+        <script type="text/javascript" src="services/IMDbService.js"></script>
+        <script type="text/javascript" src="models/TVShow.js"></script>
+        <script type="text/javascript" src="models/Episode.js"></script>
+        <script type="text/javascript" src="controllers/StartCtrl.js"></script>
+    </body>
+</html>
